@@ -1,16 +1,22 @@
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/react-movie-watchlist/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watchi🎬</title>
-    <script type="module" crossorigin src="/react-movie-watchlist/assets/index-BqOXIe4s.js"></script>
+    <script type="module" crossorigin src="/react-movie-watchlist/assets/index-CYmOn4MK.js"></script>
     <link rel="stylesheet" crossorigin href="/react-movie-watchlist/assets/index-DbWQPbZI.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if (
+        location.pathname !== "/react-movie-watchlist/" &&
+        !location.pathname.includes(".")
+      ) {
+        location.replace("/react-movie-watchlist/");
+      }
+    </script>
   </body>
 </html>
